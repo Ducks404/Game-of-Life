@@ -31,7 +31,7 @@ function setup() {
 
 function draw() {
     background(255)
-    stroke(0)
+    stroke(200)
     strokeWeight(1)
     // Set all of the squares
     if (mouseIsPressed && !running) {

@@ -17,7 +17,7 @@ function make2DArray(x, y) {
 }
 
 function setup() {
-    createCanvas(600,600)
+    createCanvas(600,600).parent('canvas')
     cols = width/w
     rows = height/w
     grid = make2DArray(cols, rows)
